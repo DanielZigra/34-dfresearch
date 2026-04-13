@@ -1,0 +1,13 @@
+# Example: Custom audio datasets for training
+# Copy this file to audio.yaml and edit to add your own datasets.
+
+datasets:
+  # - name: my-tts-samples
+  #   path: myusername/tts-generated-speech
+  #   modality: audio
+  #   media_type: synthetic
+
+  # - name: my-real-recordings
+  #   path: myusername/real-speech-recordings
+  #   modality: audio
+  #   media_type: real

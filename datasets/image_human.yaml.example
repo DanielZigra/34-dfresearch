@@ -1,0 +1,18 @@
+# Human-face real vs synthetic training data: merged with gasbench `image_human_datasets.yaml`
+# and optional local overrides in this file.
+# Copy to image_human.yaml to customize. Cached under:
+#   ~/.cache/dfresearch/datasets/image_human/<name>/
+#
+# Example (replace datasets: [] below with a list like this):
+#
+# datasets:
+#   - name: example-real-faces
+#     path: someorg/real-human-faces
+#     modality: image_human
+#     media_type: real
+#   - name: example-synthetic-faces
+#     path: someorg/ai-generated-faces
+#     modality: image_human
+#     media_type: synthetic
+
+datasets: []

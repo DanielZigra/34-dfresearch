@@ -1,0 +1,13 @@
+# Example: Custom video datasets for training
+# Copy this file to video.yaml and edit to add your own datasets.
+
+datasets:
+  # - name: my-deepfake-videos
+  #   path: myusername/deepfake-video-collection
+  #   modality: video
+  #   media_type: synthetic
+
+  # - name: my-real-clips
+  #   path: myusername/real-video-clips
+  #   modality: video
+  #   media_type: real

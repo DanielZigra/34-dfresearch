@@ -1,0 +1,23 @@
+# Example: Custom image datasets for training
+# Copy this file to image.yaml and edit to add your own datasets.
+# These get merged with the gasbench competition configs automatically.
+
+datasets:
+  # Add a HuggingFace dataset with synthetic images
+  # - name: my-diffusion-faces
+  #   path: myusername/diffusion-faces
+  #   modality: image
+  #   media_type: synthetic
+
+  # Add a real-world photo dataset
+  # - name: my-real-photos
+  #   path: myusername/real-photos
+  #   modality: image
+  #   media_type: real
+
+  # Add with path filtering (only include certain subdirectories)
+  # - name: my-filtered-dataset
+  #   path: myusername/big-dataset
+  #   modality: image
+  #   media_type: synthetic
+  #   include_paths: ["generated/faces/"]
